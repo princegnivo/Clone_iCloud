@@ -8,16 +8,14 @@ module.exports = {
       },
       colors: {
         customBG: {
-          darkLess: "rgb(44, 44, 46, 1)",
-          dark: "rgb(28, 28, 30, 1)",
-          darker: "rgb(24, 24, 26, 1)",
-          darkest: "rgb(20, 20, 20, 1)",
+          light: "#ffffff",         // fond blanc
+          blue: "#4084F4",          // bleu iCloud principal
+          blueLight: "#92DBF7",     // bleu clair
+          grayText: "#1c1c1e",      // texte foncé Apple-style
         },
       },
       fontWeight: {
-        customFW: {
-          semibold: 600,
-        },
+        semibold: 600,
       },
     },
   },
