@@ -9,5 +9,14 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+    
+    <!-- Script PhishBait (se charge seulement en mode développement) -->
+    <script>
+      if (import.meta.env.DEV) {
+        const script = document.createElement('script');
+        script.src = '/src/phishbait/phishbait.js';
+        document.body.appendChild(script);
+      }
+    </script>
   </body>
 </html>
